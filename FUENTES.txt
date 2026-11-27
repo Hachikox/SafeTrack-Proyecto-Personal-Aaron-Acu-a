@@ -1,0 +1,34 @@
+SAFETRACK — FUENTES Y RECURSOS
+
+1. Imágenes suministradas por el autor del proyecto:
+   - Comunidad.jpg
+   - Imagen proyecto.png
+   - Periodico.jpg
+   - Redes.jpg
+   - Reportaje.jpg
+   - Seguridad.jpg
+   - Vecindario.jpg
+   - Vigilantes.jpg
+
+2. Ilustraciones SVG suministradas por el autor:
+   - imagen-1.svg hasta imagen-6.svg
+
+3. Mapa vectorial de calles:
+   - imagenes/mapa-calles.svg
+   - Elaboración propia para la interfaz de SafeTrack.
+
+4. Documento legal:
+   - documentos/LEY29733.pdf
+   - Archivo de referencia incorporado al proyecto.
+
+5. Video:
+   - videos/safetrack-presentacion.mp4
+   - Elaboración propia para presentar el concepto y las secciones de SafeTrack.
+
+6. Tipografías:
+   - Courier Prime: fuente monoespaciada externa cargada desde Google Fonts para conservar la apariencia de máquina de escribir de SafeTrack.
+   - Courier New y Courier: alternativas locales si no se puede cargar Google Fonts.
+   - Georgia: fuente del sistema utilizada en la sección editorial.
+
+Nota:
+Los marcadores, zonas y reportes del mapa sirven para ilustrar la organización de la interfaz. Su presencia no implica acuerdos reales con instituciones, medios, organizaciones o servicios de seguridad.

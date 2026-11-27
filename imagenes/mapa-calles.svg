@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1300" viewBox="0 0 1800 1300">
+  <defs>
+    <pattern id="manzanas" width="260" height="220" patternUnits="userSpaceOnUse">
+      <rect width="260" height="220" fill="#e4e2dc"/>
+      <rect x="18" y="18" width="90" height="74" rx="4" fill="#f5f3ee" stroke="#d1cec6" stroke-width="3"/>
+      <rect x="120" y="20" width="118" height="72" rx="4" fill="#eeece6" stroke="#d1cec6" stroke-width="3"/>
+      <rect x="18" y="110" width="64" height="88" rx="4" fill="#efede7" stroke="#d1cec6" stroke-width="3"/>
+      <rect x="94" y="112" width="70" height="86" rx="4" fill="#f7f5ef" stroke="#d1cec6" stroke-width="3"/>
+      <rect x="177" y="111" width="61" height="87" rx="4" fill="#eae8e2" stroke="#d1cec6" stroke-width="3"/>
+      <path d="M28 29h70M130 31h96M28 122h44M105 124h48M188 123h40" stroke="#d8d5ce" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect width="1800" height="1300" fill="#e7e5df"/>
+  <rect width="1800" height="1300" fill="url(#manzanas)"/>
+
+  <!-- Espacios verdes y áreas abiertas -->
+  <path d="M80 90h300v220H80z" fill="#d6d9d0" stroke="#c1c6bc" stroke-width="5"/>
+  <path d="M1080 850h360v280h-360z" fill="#d5d8cf" stroke="#c1c6bc" stroke-width="5"/>
+  <path d="M1460 120h240v210h-240z" fill="#d9dcd4" stroke="#c1c6bc" stroke-width="5"/>
+  <g fill="#c2c9bd" opacity=".8">
+    <circle cx="130" cy="145" r="22"/><circle cx="210" cy="220" r="18"/><circle cx="315" cy="155" r="24"/>
+    <circle cx="1170" cy="925" r="23"/><circle cx="1295" cy="1030" r="19"/><circle cx="1390" cy="930" r="24"/>
+    <circle cx="1518" cy="172" r="18"/><circle cx="1630" cy="250" r="23"/>
+  </g>
+
+  <!-- Vías principales: borde exterior y superficie interior -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#c9c5bc" stroke-width="55">
+      <path d="M-80 390H1880"/>
+      <path d="M-80 850H1880"/>
+      <path d="M440 -80V1380"/>
+      <path d="M930 -80V1380"/>
+      <path d="M1430 -80V1380"/>
+      <path d="M-100 1120L1800 250"/>
+    </g>
+    <g stroke="#faf9f6" stroke-width="45">
+      <path d="M-80 390H1880"/>
+      <path d="M-80 850H1880"/>
+      <path d="M440 -80V1380"/>
+      <path d="M930 -80V1380"/>
+      <path d="M1430 -80V1380"/>
+      <path d="M-100 1120L1800 250"/>
+    </g>
+    <g stroke="#d0ccc3" stroke-width="29">
+      <path d="M-80 160H1880"/>
+      <path d="M-80 610H1880"/>
+      <path d="M-80 1050H1880"/>
+      <path d="M160 -80V1380"/>
+      <path d="M690 -80V1380"/>
+      <path d="M1190 -80V1380"/>
+      <path d="M1660 -80V1380"/>
+      <path d="M150 1380L1650 -80"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="22">
+      <path d="M-80 160H1880"/>
+      <path d="M-80 610H1880"/>
+      <path d="M-80 1050H1880"/>
+      <path d="M160 -80V1380"/>
+      <path d="M690 -80V1380"/>
+      <path d="M1190 -80V1380"/>
+      <path d="M1660 -80V1380"/>
+      <path d="M150 1380L1650 -80"/>
+    </g>
+  </g>
+
+  <!-- Veredas y cruces -->
+  <g fill="none" stroke="#d5d1c8" stroke-width="3" opacity=".95">
+    <path d="M410 360h60M410 420h60M900 360h60M900 420h60M1400 360h60M1400 420h60"/>
+    <path d="M410 820h60M410 880h60M900 820h60M900 880h60M1400 820h60M1400 880h60"/>
+    <path d="M130 590h60M130 650h60M660 590h60M660 650h60M1160 590h60M1160 650h60"/>
+  </g>
+
+  <!-- Pasajes internos -->
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+    <path d="M230 265h155M520 265h340M1010 265h340M1510 265h200"/>
+    <path d="M220 720h180M520 720h330M1010 720h340M1510 720h190"/>
+    <path d="M230 970h160M520 970h340M1010 970h340M1510 970h180"/>
+    <path d="M300 500v80M560 500v80M820 500v80M1080 500v80M1340 500v80"/>
+  </g>
+
+  <!-- Nombres de calles y referencias urbanas -->
+  <g font-family="Arial, sans-serif" fill="#77756e" font-size="23" letter-spacing="2">
+    <text x="660" y="375">AV. CENTRAL</text>
+    <text x="1110" y="835">AV. DEL PARQUE</text>
+    <text x="620" y="595">JR. LOS OLIVOS</text>
+    <text x="1060" y="1035">CALLE 4</text>
+    <text x="210" y="148">CALLE LOS PINOS</text>
+    <text x="1510" y="580" transform="rotate(90 1510 580)">JR. LAS FLORES</text>
+    <text x="925" y="300" transform="rotate(90 925 300)">AV. NORTE</text>
+    <text x="435" y="1000" transform="rotate(-90 435 1000)">PASAJE VECINAL</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#8a8982" font-size="27" font-weight="600" letter-spacing="2">
+    <text x="160" y="290">PARQUE</text>
+    <text x="1155" y="980">PLAZA VECINAL</text>
+    <text x="1490" y="225">ZONA RESIDENCIAL</text>
+  </g>
+
+  <!-- Edificios de referencia y manzanas de mayor contraste -->
+  <g fill="#d8d5ce" stroke="#c5c1b8" stroke-width="4">
+    <rect x="520" y="205" width="130" height="90" rx="4"/>
+    <rect x="760" y="205" width="110" height="92" rx="4"/>
+    <rect x="1010" y="475" width="130" height="90" rx="4"/>
+    <rect x="1280" y="660" width="95" height="100" rx="4"/>
+    <rect x="220" y="900" width="125" height="85" rx="4"/>
+    <rect x="1515" y="910" width="115" height="96" rx="4"/>
+  </g>
+  <g fill="#f4f2ec" stroke="#d0ccc3" stroke-width="3">
+    <rect x="535" y="220" width="100" height="60"/>
+    <rect x="775" y="220" width="80" height="62"/>
+    <rect x="1025" y="490" width="100" height="60"/>
+    <rect x="1295" y="675" width="65" height="70"/>
+    <rect x="235" y="915" width="95" height="55"/>
+    <rect x="1530" y="925" width="85" height="65"/>
+  </g>
+</svg>

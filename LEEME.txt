@@ -1,0 +1,27 @@
+INSTRUCCIONES DE USO — SAFETRACK
+
+1. Abra index.html en un navegador web.
+2. Use el menú horizontal en escritorio.
+3. En pantallas de hasta 760 px, utilice el botón hamburguesa para desplegar el menú vertical.
+4. Entre en la sección "Nuestra aplicación" y pulse "Iniciar".
+5. Arrastre el mapa con el ratón o el dedo para recorrer otras zonas.
+6. Seleccione un marcador del mapa o una tarjeta del panel comunitario para abrir los detalles del aviso.
+7. Use los filtros "Todos", "Robos", "Zonas de riesgo" y "Movilidad" para organizar los reportes.
+8. Utilice los botones + y - para acercar o alejar, y el botón de centrado para volver a la vista inicial.
+9. Pulse "Cerrar" para volver a la pantalla previa y poder iniciar nuevamente.
+10. La opción "Sobre SafeTrack" abre nosotros.html en la misma pestaña.
+11. La opción "Guía informativa" abre guia.html en una pestaña nueva.
+12. El formulario contiene select, radio y checkbox. Al enviarlo, abre confirmacion.html.
+13. El video se reproduce desde la carpeta videos.
+14. El PDF de la Ley N.º 29733 se encuentra en documentos.
+
+ESTRUCTURA DE ESTILOS:
+- css/estilos.css: estilos generales, secciones, mapa interactivo y diseño responsive.
+- css/he_pie.css: estilos exclusivos del pie de página.
+
+JAVASCRIPT:
+- js/menu.js: abre y cierra el menú hamburguesa.
+- js/mapa.js: controla el desplazamiento, zoom, filtros, marcadores y detalles del mapa.
+
+IMPORTANTE:
+Los avisos y ubicaciones del mapa son ilustrativos. El sitio no consulta el GPS, no recibe reportes externos y no envía alertas ni llamadas de emergencia. Ante una emergencia, utiliza los canales oficiales.
